@@ -10,3 +10,8 @@ npm
 .gitattributes
 .htaccess
 .editorconfig
+index2.html
+css/main.css
+css/styles.css
+js/main.js
+js/script.js

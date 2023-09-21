@@ -1,12 +1,3 @@
-
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
-
 (() => {
   var __getOwnPropNames = Object.getOwnPropertyNames;
   var __commonJS = (cb, mod) => function __require() {
@@ -12752,50 +12743,6 @@
   require_webflow_scroll();
   require_webflow_touch();
 })();
-/*!
- * tram.js v0.8.2-global
- * Cross-browser CSS3 transitions in JavaScript
- * https://github.com/bkwld/tram
- * MIT License
- */
-/*!
- * Webflow._ (aka) Underscore.js 1.6.0 (custom build)
- * _.each
- * _.map
- * _.find
- * _.filter
- * _.any
- * _.contains
- * _.delay
- * _.defer
- * _.throttle (webflow)
- * _.debounce
- * _.keys
- * _.has
- * _.now
- * _.template (webflow: upgraded to 1.13.6)
- *
- * http://underscorejs.org
- * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- * Underscore may be freely distributed under the MIT license.
- * @license MIT
- */
-/*! Bundled license information:
-
-timm/lib/timm.js:
-  (*!
-   * Timm
-   *
-   * Immutability helpers with fast reads and acceptable writes.
-   *
-   * @copyright Guillermo Grau Panea 2016
-   * @license MIT
-   *)
-*/
-/**
- * ----------------------------------------------------------------------
- * Webflow: Interactions 2.0: Init
- */
 Webflow.require('ix2').init(
 {"events":{"e":{"id":"e","name":"","animationType":"custom","eventTypeId":"SCROLLING_IN_VIEW","action":{"id":"","actionTypeId":"GENERAL_CONTINUOUS_ACTION","config":{"actionListId":"a","affectedElements":{},"duration":0}},"mediaQueries":["main","medium"],"target":{"selector":".trigger","originalId":"650b6bd4d0f7e69bea6840cc|2db6ff6d-82cc-1b6a-68cc-001b1241d552","appliesTo":"CLASS"},"targets":[{"selector":".trigger","originalId":"650b6bd4d0f7e69bea6840cc|2db6ff6d-82cc-1b6a-68cc-001b1241d552","appliesTo":"CLASS"}],"config":[{"continuousParameterGroupId":"a-p","smoothing":70,"startsEntering":true,"addStartOffset":false,"addOffsetValue":50,"startsExiting":true,"addEndOffset":false,"endOffsetValue":50}],"createdOn":1651805964423},"e-4":{"id":"e-4","name":"","animationType":"custom","eventTypeId":"PAGE_FINISH","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-3","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-3"}},"mediaQueries":["main","medium","small","tiny"],"target":{"appliesTo":"PAGE","styleBlockIds":[],"id":"650b6bd4d0f7e69bea6840cc"},"targets":[],"config":{"loop":true,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":null,"direction":null,"effectIn":null},"createdOn":1695256717463}},"actionLists":{"a":{"id":"a","title":"Scroll Interaction","continuousParameterGroups":[{"id":"a-p","type":"SCROLL_PROGRESS","parameterLabel":"Scroll","continuousActionGroups":[{"keyframe":0,"actionItems":[{"id":"a-n-5","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".hero_heading","selectorGuids":["41d02e51-e533-1ee7-8ef4-01f0a8cbf60a"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-n-7","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".hero_heading","selectorGuids":["41d02e51-e533-1ee7-8ef4-01f0a8cbf60a"]},"value":1,"unit":""}},{"id":"a-n-9","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_left","selectorGuids":["14796510-b52d-a752-d33f-5da68e0e6534"]},"xValue":2.5,"yValue":2.5,"locked":true}},{"id":"a-n-11","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_right","selectorGuids":["f7ba8e96-bf2b-0d31-4afd-ba0b0b735dc6"]},"xValue":2.5,"yValue":2.5,"locked":true}},{"id":"a-n-13","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_left","selectorGuids":["14796510-b52d-a752-d33f-5da68e0e6534"]},"xValue":-40,"yValue":-20,"xUnit":"vw","yUnit":"vw","zUnit":"PX"}},{"id":"a-n-15","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_right","selectorGuids":["f7ba8e96-bf2b-0d31-4afd-ba0b0b735dc6"]},"xValue":40,"yValue":20,"xUnit":"vw","yUnit":"vw","zUnit":"PX"}},{"id":"a-n-17","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_left","selectorGuids":["14796510-b52d-a752-d33f-5da68e0e6534"]},"value":0,"unit":""}},{"id":"a-n-19","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_right","selectorGuids":["f7ba8e96-bf2b-0d31-4afd-ba0b0b735dc6"]},"value":0,"unit":""}},{"id":"a-n-21","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"id":"650b6bd4d0f7e69bea6840cc|dab274da-d873-c075-acfb-2c266d11e035"},"xValue":1.2,"yValue":1.2,"zValue":1,"locked":true}}]},{"keyframe":40,"actionItems":[{"id":"a-n-6","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".hero_heading","selectorGuids":["41d02e51-e533-1ee7-8ef4-01f0a8cbf60a"]},"xValue":0.6,"yValue":0.6,"locked":true}},{"id":"a-n-8","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".hero_heading","selectorGuids":["41d02e51-e533-1ee7-8ef4-01f0a8cbf60a"]},"value":0,"unit":""}}]},{"keyframe":41,"actionItems":[{"id":"a-n-22","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"id":"650b6bd4d0f7e69bea6840cc|dab274da-d873-c075-acfb-2c266d11e035"},"xValue":0,"yValue":0,"zValue":0.4,"locked":true}}]},{"keyframe":90,"actionItems":[{"id":"a-n","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"PARENT","selector":".body","selectorGuids":["ecc10751-82df-1f73-3b48-31b2f525b5e4"]},"globalSwatchId":"dd7f7517","rValue":255,"bValue":255,"gValue":255,"aValue":1}},{"id":"a-n-3","actionTypeId":"STYLE_TEXT_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"PARENT","selector":".body","selectorGuids":["ecc10751-82df-1f73-3b48-31b2f525b5e4"]},"globalSwatchId":"e97d13cc","rValue":16,"bValue":16,"gValue":16,"aValue":1}},{"id":"a-n-18","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_left","selectorGuids":["14796510-b52d-a752-d33f-5da68e0e6534"]},"value":1,"unit":""}},{"id":"a-n-20","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_right","selectorGuids":["f7ba8e96-bf2b-0d31-4afd-ba0b0b735dc6"]},"value":1,"unit":""}}]},{"keyframe":95,"actionItems":[{"id":"a-n-2","actionTypeId":"STYLE_BACKGROUND_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"PARENT","selector":".body","selectorGuids":["ecc10751-82df-1f73-3b48-31b2f525b5e4"]},"globalSwatchId":"e97d13cc","rValue":16,"bValue":16,"gValue":16,"aValue":1}},{"id":"a-n-4","actionTypeId":"STYLE_TEXT_COLOR","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":"PARENT","selector":".body","selectorGuids":["ecc10751-82df-1f73-3b48-31b2f525b5e4"]},"globalSwatchId":"dd7f7517","rValue":255,"bValue":255,"gValue":255,"aValue":1}}]},{"keyframe":100,"actionItems":[{"id":"a-n-10","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_left","selectorGuids":["14796510-b52d-a752-d33f-5da68e0e6534"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-n-12","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_right","selectorGuids":["f7ba8e96-bf2b-0d31-4afd-ba0b0b735dc6"]},"xValue":1,"yValue":1,"locked":true}},{"id":"a-n-14","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_left","selectorGuids":["14796510-b52d-a752-d33f-5da68e0e6534"]},"xValue":0,"yValue":0,"xUnit":"vw","yUnit":"vw","zUnit":"PX"}},{"id":"a-n-16","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"selector":".work_right","selectorGuids":["f7ba8e96-bf2b-0d31-4afd-ba0b0b735dc6"]},"xValue":0,"yValue":0,"xUnit":"vw","yUnit":"vw","zUnit":"PX"}}]}]}],"createdOn":1651805993984},"a-3":{"id":"a-3","title":"Bounce","actionItemGroups":[{"actionItems":[{"id":"a-3-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"id":"650b6bd4d0f7e69bea6840cc|68954b34-afd5-d88c-2e48-983558115e8d"},"xValue":0,"yValue":-5,"xUnit":"px","yUnit":"px","zUnit":"PX"}}]},{"actionItems":[{"id":"a-3-n-2","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"id":"650b6bd4d0f7e69bea6840cc|68954b34-afd5-d88c-2e48-983558115e8d"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"createdOn":1695256740116,"useFirstGroupAsInitialState":false}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
 );
