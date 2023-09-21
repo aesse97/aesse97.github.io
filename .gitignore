@@ -9,3 +9,4 @@ LICENSE.txt
 npm
 .gitattributes
 .htaccess
+.editorconfig
